@@ -1,0 +1,112 @@
+@font-face {
+    font-family: font1;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+*{
+    background: hsl(0, 0%, 8%);
+}
+.container{
+    font-family: font1;
+    height: 600px;
+    width: 400px;
+    background: hsl(0, 0%, 12%);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    border-radius: 15px;
+    /* line-height: 30px; */
+}
+.text{
+    background: hsl(0, 0%, 12%)
+}
+h1{
+    background: hsl(0, 0%, 12%);
+}
+p{
+    background: hsl(0, 0%, 12%);
+}
+img{
+    border-radius: 50%;
+}
+h1{
+    justify-self: center;
+}
+p{
+    justify-self: center;
+    color: hsl(75, 94%, 57%);
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: hsl(0, 0%, 12%);
+}
+.git{
+    height: 30px;
+    width: 200px;
+    background: hsl(0, 0%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.front{
+    height: 30px;
+    width: 200px;
+    background: hsl(0, 0%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.link{
+    height: 30px;
+    width: 200px;
+    background: hsl(0, 0%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.twitter{
+    height: 30px;
+    width: 200px;
+    background: hsl(0, 0%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.instagram{
+    height: 30px;
+    width: 200px;
+    background: hsl(0, 0%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.git:hover{
+    color: white;
+    background: hsl(75, 94%, 57%);
+}
+.front:hover{
+    color: white;
+    background: hsl(75, 94%, 57%);
+}
+.link:hover{
+    color: white;
+    background: hsl(75, 94%, 57%);
+}
+.twitter:hover{
+    color: white;
+    background: hsl(75, 94%, 57%);
+}
+.instagram:hover{
+    color: white;
+    background: hsl(75, 94%, 57%);
+}
